@@ -1,0 +1,9 @@
+{
+    "trainable_parameters": 3538944,
+    "total_parameters": 251116800,
+    "training_time_seconds": 282.8241767883301,
+    "training_time_minutes": 4.713736279805501,
+    "num_train_epochs": 200,
+    "max_steps": 500,
+    "learning_rate": 0.001
+}
