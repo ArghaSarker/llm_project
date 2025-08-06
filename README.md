@@ -79,22 +79,27 @@ The models were evaluated on dialogue summarization quality, with outputs stored
 #### Training Loss Curves
 
 **Full Fine-Tuning Loss Curves**
+
 ![Training vs Validation Loss](figs/training_vs_validation_loss.png)
 
 **PEFT Training Loss Curves**
+
 ![PEFT Training vs Validation Loss](figs/peft_training_vs_validation_loss.png)
 
 #### Model Comparison Metrics
 
 **Parameter Efficiency Comparison**
+
 ![Parameters Comparison](figs/parameters_comparison.png)
 
 **Training Time Efficiency**
+
 ![Training Time Comparison](figs/training_time_comparison.png)
 
 #### Performance Analysis
 
 **Model Performance by Score Groups**
+
 ![Grouped by Score](figs/grouped_by_score.png)
 
 ### Conclusion
