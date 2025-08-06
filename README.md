@@ -74,19 +74,16 @@ The models were evaluated on dialogue summarization quality, with outputs stored
 - `model_outputs/instruction_fine_tuned_model_summaries.csv` - Full fine-tuning outputs  
 - `model_outputs/peft_model_summaries.csv` - PEFT outputs
 
-### Visualizations
+### Results Plots
 
-#### Training Loss Curves
 
-**Full Fine-Tuning Loss Curves**
+##### Performance Analysis
+**Model Performance by Score Groups**
 
-![Training vs Validation Loss](figs/training_vs_validation_loss.png)
+![Grouped by Score](figs/grouped_by_score.png)
 
-**PEFT Training Loss Curves**
 
-![PEFT Training vs Validation Loss](figs/peft_training_vs_validation_loss.png)
-
-#### Model Comparison Metrics
+##### Model Comparison Metrics
 
 **Parameter Efficiency Comparison**
 
@@ -96,11 +93,25 @@ The models were evaluated on dialogue summarization quality, with outputs stored
 
 ![Training Time Comparison](figs/training_time_comparison.png)
 
-#### Performance Analysis
 
-**Model Performance by Score Groups**
 
-![Grouped by Score](figs/grouped_by_score.png)
+
+
+##### Training Loss Curves
+
+**Full Fine-Tuning Loss Curves**
+
+![Training vs Validation Loss](figs/training_vs_validation_loss.png)
+
+**PEFT Training Loss Curves**
+
+![PEFT Training vs Validation Loss](figs/peft_training_vs_validation_loss.png)
+
+
+
+
+
+
 
 ### Conclusion
 
